@@ -8,5 +8,9 @@
 </head>
 <body>
 I am welcome file.
+<form action= "<%= request.getContextPath() %>/displayName" method="get">
+<input type="text" name="firstName">
+<input type="submit" value="Submit">
+</form>
 </body>
 </html>
